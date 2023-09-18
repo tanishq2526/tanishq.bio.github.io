@@ -1,0 +1,147 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+:root{
+    scroll-behavior:smooth;
+}
+
+@font-face {
+    font-family: myfont;
+    src: url(toony.otf);
+}
+
+
+li{
+    display: inline;
+    flex-wrap: wrap;
+    font-size: 19px;
+    padding-left: 20px ;
+}
+a{
+    color: black;
+    
+}
+
+body{
+    background-color: rgb(13, 138, 187);
+}
+
+ul{
+
+    width: 300px;
+    background-color: whitesmoke;
+    border: 2px solid rgb(13, 138, 187);
+    border-radius: 20px;
+    background-color: #fffdfc;
+}
+
+div.q{
+    margin-top: 10px;
+    margin-left: 850px;
+    margin-right: 300px;
+}
+
+img{
+    width: 350px;
+    padding-right: 77%;
+    margin-top: -101px;
+    background-color: rgb(194, 184, 5);
+    margin-top: 10px;
+    
+}
+
+h1{
+    font-size: 80px ;
+    font-family: myfont;
+    color: rgb(2, 2, 2);
+    text-shadow: 2px 3px rgb(251, 251, 251);
+    margin-top: -480px;
+    margin-left: 50%;
+    font-weight: 100;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    flex-shrink: inherit;
+}
+@font-face {
+    font-family: textl;
+    src: url(Lazy.otf);
+}
+h5{
+    font-family: textl;
+    text-align: center;
+    color:  white;
+    font-size: 35px;
+    text-shadow: #6B682E 2px 2px;
+    border: 1px solid rgb(194, 184, 5);
+}
+
+main{
+    padding-left: 30%;
+}
+.parent,.pt{
+    margin-top: 30px;
+    display: flex;
+
+}
+
+.box1,.box2,.box3{
+    width: 500px;
+    height: 300px;
+    border: 2px solid rgb(13, 138, 187);
+    background-color: rgb(210, 199, 6);
+    color: #6B682E;
+    font-family:Arial, Helvetica, sans-serif;
+    border: #6B682E 2px double;
+    margin-left: 20px;
+    margin-inline-end: 10px;
+
+}
+.box3:hover{
+
+    filter: drop-shadow(8px 8px 10px  #4b491e );
+    scale: 108% ;
+    
+}
+.box2:hover{
+
+    filter: drop-shadow(8px 8px 10px  #4b491e );
+    scale: 108% ;
+}
+.box1:hover{
+
+    filter: drop-shadow(8px 8px 10px  #4b491e );
+    scale: 108% ;
+}
+.h{
+    text-align: center;
+    margin-top: -0px;
+}
+h2.skill{
+    text-align: center;
+    margin-top: 200px;
+    font-family:textl;
+    color: white;
+    border:1px rgb(13, 138, 187) solid ;
+    font-size: 45px;
+    text-shadow: #6B682E 2px 2px ;
+}
+span.jk{
+    font-size: 25px;
+    padding-top:-100px ;
+    padding-left: 50%;
+
+}
+.me{
+    background-color: #f6f3ba;
+    height: 500px;
+    margin-top: 150px;
+    font-size: 30px;
+    font-family: textl;
+    display: flex;
+}
+.h1,.h2,.h3{
+    padding-left: 20%;
+    color:#6B682E;
+}
